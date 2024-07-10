@@ -1,0 +1,10 @@
+.wrapper{
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-color: lightslategray;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}

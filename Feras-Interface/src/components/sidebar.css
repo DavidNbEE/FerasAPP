@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #3f51b5; /* warna lebih cerah */
+    color: white;
+    height: 100vh;
+    padding: 20px; /* tambahkan padding */
+}
+
+.top_section {
+    align-items: center;
+    display: flex;
+    padding: 20px 15px;
+}
+
+.logo {
+    font-size: 35px; /* ukuran font lebih besar */
+    color: #fff; /* warna putih */
+}
+
+.bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.link {
+    color: white;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 15px;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    background: #536dfe; /* warna hover lebih cerah */
+    color: white;
+    transition: all 0.5s;
+}
+
+.sidebar-btn {
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* margin-top lebih kecil */
+}
+
+.sidebar-btn button {
+    background-color: #536dfe; /* warna lebih cerah */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px; /* padding lebih besar */
+    transition: background-color 0.3s ease;
+    width: auto; /* lebar otomatis */
+    font-size: 18px; /* ukuran font lebih besar */
+}
+
+.sidebar-btn button:hover {
+    background-color: #3f51b5; /* warna hover lebih gelap */
+}
+
+.sidebar-btn button:focus {
+    background-color: #303f9f; /* warna fokus lebih gelap */
+    outline: none;
+}
+
+.information-admin{
+    align-items: center;
+    padding: 20px;
+    background-color: #536dfe; /* warna lebih cerah */
+    color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-right: 10px; /* margin-top lebih besar */
+}
+.information-admin h6{
+    margin-top: 5px;
+    font-size: 15px; /* ukuran font lebih besar */
+}
+.information-admin p{
+    margin-top: 5px;
+    font-size: 15px; /* ukuran font lebih besar */
+}

@@ -1,0 +1,309 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.wrapper {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.welcome-sign {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.welcome-sign img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.halo-user h2,
+.halo-user h4 {
+    margin: 0;
+}
+
+.dashboard-date {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-in {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.button-in:hover {
+    background-color: #218838;
+}
+
+.button-out {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.button-out:hover {
+    background-color: #c82333;
+}
+
+.to-do-list {
+    margin-top: 20px;
+}
+
+.to-do-list input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.todo-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-lists button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo-lists .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.todo-lists .delete-button:hover {
+    background-color: #c82333;
+}
+
+.todo-lists .up-button {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.todo-lists .up-button:hover {
+    background-color: #e0a800;
+}
+
+.todo-lists .down-button {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.todo-lists .down-button:hover {
+    background-color: #138496;
+}
+
+.todo-lists .finish-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.todo-lists .finish-button:hover {
+    background-color: #218838;
+}
+
+.completed .tasks {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.add-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.add-button:hover {
+    background-color: #0069d9;
+}
+
+.note-input-container, .camera-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+.note-input-container {
+    max-width: 500px;
+    /* Limit the width of the note input */
+    background-color: #fff;
+    /* Change the background color to white */
+    padding: 20px; /* Add some padding around the content */
+}
+
+.note-input-container textarea {
+    width: 100%;
+    /* Make the textarea take up the full width of the container */
+    padding: 10px;
+    /* Add some padding */
+    border: none;
+    /* Remove the border */
+    font-size: 16px;
+    /* Increase the font size */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+}
+
+.note-input-container button {
+    display: block;
+    /* Make the button take up the full width of the container */
+    padding: 10px;
+    /* Add some padding */
+    background-color: #007BFF;
+    /* Change the background color */
+    color: #fff;
+    /* Change the text color to white */
+    border: none;
+    /* Remove the border */
+    cursor: pointer;
+    /* Change the cursor when hovering over the button */
+    font-size: 16px;
+    /* Increase the font size */
+    transition: background-color 0.3s ease;
+    /* Add a transition effect when the background color changes */
+}
+
+.note-input-container button:hover {
+    background-color: #0069d9;
+    /* Change the background color when hovering over the button */
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.close-camera {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 7%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.close-camera:hover {
+    background-color: #c82333;
+}
+/* Close Button */
+.close-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.close-btn:hover {
+    background-color: white; 
+    color: black; 
+}
+
+/* Pop-up Message */
+.pop-up-message {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Pop-up Overlay */
+.pop-up-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+/* Pop-up Container */
+.pop-up {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+    max-width: 400px;
+    width: 90%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.pop-up.success {
+    border-left: 5px solid #4CAF50;
+}
+
+.pop-up.error {
+    border-left: 5px solid #F44336;
+}

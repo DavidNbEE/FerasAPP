@@ -1,0 +1,104 @@
+.loginform {
+    background-color: rgba(22, 13, 181, 0.5);
+    color: white;
+}
+
+.registerform {
+    background-color: rgba(22, 13, 181, 0.5);
+    color: white;
+}
+
+.register-href a {
+    color: white;
+    transition: color 0.5s ease-in-out;
+}
+
+.register-href a:hover {
+    color: lightgray;
+}
+
+.register-href a:active {
+    color: #b200ff; /* LED purple */
+}
+
+.btn-success {
+    background-color: #BE7B72;
+    border-color: #BE7B72;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #9b067a;
+    border-color: #9b067a;
+}
+
+.email-input input,
+.password-input input {
+    transition: box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.email-input input:hover,
+.password-input input:hover,
+.email-input input:focus,
+.password-input input:focus {
+    border: 1px solid #720455;
+    box-shadow: 0 0 10px #720455;
+}
+
+/* Dibawah ini styling untuk dashboard */
+.dashboard-container {
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.person-profile {
+    display: flex;
+}
+
+.person-profile-img {
+    margin-left: 30px;
+}
+
+.person-profile-img img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.person-profile-name h1,
+.person-profile-position h3 {
+    color: #720455; /* Dark purple */
+}
+
+.attendance-note button {
+    width: 50%;
+    padding: 10px;
+    background-color: #720455; /* Dark purple */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.attendance-note button:hover {
+    background-color: #9b067a; /* Stronger purple */
+}
+
+.attendance-box table {
+    margin-top: 40px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-box th,
+.attendance-box td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.attendance-box tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
